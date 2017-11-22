@@ -15,7 +15,7 @@ public class Player {
 
     private String pseudoPlayer;
     private ArrayList<Weapon> weaponPlayer;
-    private int strengthPlayer;
+    private int Foooorce;
 
     public Player(String pseudo, ArrayList<Weapon> arme, int force) {
         this.pseudoPlayer = pseudo;
