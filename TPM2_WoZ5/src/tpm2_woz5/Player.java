@@ -15,12 +15,12 @@ public class Player {
 
     private String pseudoPlayer;
     private ArrayList<Weapon> weaponPlayer;
-    private int strengthPlayer;
+    private int force;
 
     public Player(String pseudo, ArrayList<Weapon> arme, int force) {
         this.pseudoPlayer = pseudo;
         this.weaponPlayer = arme;
-        this.strengthPlayer = force;
+        this.force = force;
     }
 
     public String getPseudo() {
@@ -32,7 +32,7 @@ public class Player {
     }
 
     public int getForce() {
-        return strengthPlayer;
+        return force;
     }
 
     public void setPseudo(String pseudo) {
@@ -44,7 +44,7 @@ public class Player {
     }
 
     public void setForce(int force) {
-        this.strengthPlayer = force;
+        this.force = force;
     }
 
 }
